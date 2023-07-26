@@ -333,7 +333,7 @@ header.smaller.scroll-light #mainmenu li.has-child:after {
 }
 
 header.smaller.scroll-light #mainmenu li li a:hover {
-    color: #333333;
+    color: #ffffff;
 }
 
 .logo-smaller div#logo {
@@ -660,7 +660,7 @@ header .header-col.mid .social-icons {
 #mainmenu a span {
     position: relative;
     width: 0%;
-    color: #333333;
+    color: #ffffff;
     display: block;
     font-size: 10px;
     text-transform: uppercase;
@@ -715,7 +715,7 @@ header .header-col.mid .social-icons {
 }
 
 .dark-scheme #mainmenu li li a{
-    color: #333333;
+    color: #ffffff;
 }
 
 .rtl #mainmenu li li a {
@@ -737,7 +737,7 @@ header .header-col.mid .social-icons {
 
 #mainmenu li li a:hover,
 #mainmenu ul li:hover>a {
-    color: #333333;
+    color: #fff;
     background: #1a8b49;
 }
 
@@ -943,7 +943,7 @@ header.header-mobile.header-light #menu-btn {
 
 section {
     background: #ffffff;
-    padding: 90px 0 10px 0;
+    padding: 90px 0 90px 0;
     position: relative;
 }
 
