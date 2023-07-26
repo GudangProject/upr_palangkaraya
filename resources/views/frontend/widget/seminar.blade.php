@@ -10,7 +10,7 @@
 
             @foreach ($data as $event)
                 @if ($loop->index < $limit)
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6 mb-4">
                         <div class="de-image-text">
                             <a href="/seminar/{{ $event->slug }}" class="d-text">
                                 <h3><span class="id-color">0{{ $loop->index + 1 }}</span> {{ $event->judul }}</h3>

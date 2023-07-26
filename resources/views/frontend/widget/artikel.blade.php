@@ -9,10 +9,11 @@
             </div>
             @foreach ($data as $row)
                 @if ($loop->index <= $limit)
-                <div class="col-lg-4 col-md-6 mb-sm-30">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <a href="/post/{{ $row->slug }}" class="de-card">
                         <div class="de-image">
-                            <img src="{{ asset('storage/pictures').'/post/4_3/mid/'.$row->image }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/images/banner/banner-15.jpg') }}" class="img-fluid" alt="">
+                            {{-- <img src="{{ asset('storage/pictures').'/post/4_3/mid/'.$row->image }}" class="img-fluid" alt=""> --}}
                         </div>
                         <div class="text">
                             <h4>{{ $row->title }}</h4>
