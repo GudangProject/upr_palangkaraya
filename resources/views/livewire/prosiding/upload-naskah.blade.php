@@ -46,8 +46,8 @@
                                         <div class="modal-body">
                                             <div class="form-group">
                                                 <label><h5>Bidang Ilmu</h5></label>
-                                                <select class="form-control form-control-lg" wire:model='bidang_ilmu'>
-                                                    <option selected>--- Pilih ---</option>
+                                                <select class="form-control form-control-lg" wire:model='bidang_ilmu' required>
+                                                    <option value='1'>--- Pilih ---</option>
                                                     @foreach ($bidang_ilmu_data as $item)
                                                         <option value="{{ $item->id }}">{{ $item->judul }}</option>
                                                     @endforeach

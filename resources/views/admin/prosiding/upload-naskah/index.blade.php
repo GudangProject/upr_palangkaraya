@@ -40,8 +40,7 @@
                                                 <div class="card-body">
                                                     <div class="form-group">
                                                         <label><h5>Bidang Ilmu</h5></label>
-                                                        <select class="select2 form-control form-control-lg select2-hidden-accessible" name="bidang_ilmu">
-                                                            <option selected>--- Pilih ---</option>
+                                                        <select class="select2 form-control form-control-lg select2-hidden-accessible" name="bidang_ilmu" required>
                                                             @foreach ($bidangIlmu as $item)
                                                                 <option value="{{ $item->id }}">{{ $item->judul }}</option>
                                                             @endforeach
